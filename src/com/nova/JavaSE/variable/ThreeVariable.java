@@ -5,7 +5,7 @@ public class ThreeVariable {
         int m = 5;
         int n = 2;
 
-        int max = (m > n) ? m : n;
+        int max = Math.max(m, n);
         System.out.println(max);
     }
 }
